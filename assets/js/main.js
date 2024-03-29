@@ -21,7 +21,7 @@ function calculateScore() {
     }
 
     // Mostrar resultado
-   // alert(response);
+   alert(response);
 }
         
 calculateScore();
