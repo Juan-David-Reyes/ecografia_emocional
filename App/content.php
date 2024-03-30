@@ -18,8 +18,8 @@
     <div class="container">
 
       <div class="titCategoria">
-        <h3>Primera Categoría</h3>
-        <div>Lorem ipsum dolor sit amet consectetur. Urna viverra elementum ac lacinia. Nisl at quam ante arcu a ultrices. Pellentesque ut nec potenti elit sit dignissim. Vitae nullam vi</div>
+        <h3>Emociones</h3>
+        
       </div>
       
 
@@ -28,80 +28,105 @@
       <div id="questions">
 
         <div class="cont_quest">
-          <h5>Pregunta 1:</h5>
+          <h5>Vocabulario emocional</h5>
           <div>
-            ¿Aquí empiezan todas las preguntas referentes a la categoría 1?
+          ¿Cuando te preguntan cómo estás, cuál de las siguientes opciones representa de mejor manera tu vocabulario emocional?.
           </div>
         </div>
 
         <div class="cont_questions" data-category="1">
           <label for="c1-q1">
-            <input id="c1-q1" type="radio" name="question1" value="1"> 
+            <input id="c1-q1" type="radio" name="question1" value="0"> 
             <span class="active"></span>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Bien, mal, ahí vamos.</p>
           </label>
           <label for="c1-q2">
-            <input id="c1-q2" type="radio" name="question1" value="2">
+            <input id="c1-q2" type="radio" name="question1" value="1">
             <span class="active"></span>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Triste, alegre, molesto, miedoso.</p>
           </label>
           <label for="c1-q3">
-            <input id="c1-q3" type="radio" name="question1" value="3">
+            <input id="c1-q3" type="radio" name="question1" value="2">
             <span class="active"></span>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Nostálgico, esperanzado, entusiasmado, indignado.</p>
           </label>
         </div>
 
        <div class="cont_quest">
-          <h5>Pregunta 2:</h5>
+          <h5>Validación de la emoción</h5>
           <div>
-            ¿Aquí empiezan todas las preguntas referentes a la categoría 1?
+          Cuando me doy cuenta que estoy sintiendo emociones difíciles de manejar como: tristeza, miedo, frustración, enojo, mi actitud suele ser:
           </div>
         </div>
         <div class="cont_questions" data-category="1">
           <label for="c2-q1">
-            <input id="c2-q1" type="radio" name="question2" value="1">
+            <input id="c2-q1" type="radio" name="question2" value="2">
             <span class="active"></span>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Acepto sin juicio la emoción.</p>
           </label>
           <label for="c2-q2">
-            <input id="c2-q2" type="radio" name="question2" value="2">
+            <input id="c2-q2" type="radio" name="question2" value="0">
             <span class="active"></span>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Evito sentir la emoción. Considero que no debería estar sintiendo eso.</p>
           </label>
           <label for="c2-q3">
-            <input id="c2-q3" type="radio" name="question2" value="3">
+            <input id="c2-q3" type="radio" name="question2" value="1">
             <span class="active"></span>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Al principio me resisto un poco a la emoción, pero termino por aceptarla.</p>
           </label>
         </div>
 
         <div class="cont_quest">
-          <h5>Pregunta 3:</h5>
+          <h5>Comunicar la emoción</h5>
           <div>
-            ¿Aquí empiezan todas las preguntas referentes a la categoría 1?
+          Al momento de compartir lo que siento, cuál de las siguientes afirmaciones te representa mejor:
           </div>
         </div>
         <div class="cont_questions" data-category="1">
           <label for="c3-q1">
-            <input id="c3-q1" type="radio" name="question3" value="1">
+            <input id="c3-q1" type="radio" name="question3" value="0">
             <span class="active"></span>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Nunca comunico mis emociones</p>
           </label>
           <label for="c3-q2">
-            <input id="c3-q2" type="radio" name="question3" value="2">
+            <input id="c3-q2" type="radio" name="question3" value="1">
             <span class="active"></span>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Me cuesta comunicar las emociones pero con personas de confianza logro hacerlo</p>
           </label>
           <label for="c3-q3">
-            <input id="c3-q3" type="radio" name="question3" value="3">
+            <input id="c3-q3" type="radio" name="question3" value="2">
             <span class="active"></span>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Me es muy fácil comunicar lo que estoy viviendo</p>
+          </label>
+        </div>
+
+
+        <div class="cont_quest">
+          <h5>Gestión emocional</h5>
+          <div>
+          Ante emociones dificiles de manejar (rabia, tristeza, frustración, entre otras), con cuál de las siguientes frases te identificas más:
+          </div>
+        </div>
+        <div class="cont_questions" data-category="1">
+          <label for="c4-q1">
+            <input id="c4-q1" type="radio" name="question4" value="0">
+            <span class="active"></span>
+            <p>Durante el tiempo que persiste la emoción siento que no tendría porqué vivirla</p>
+          </label>
+          <label for="c4-q2">
+            <input id="c4-q2" type="radio" name="question4" value="1">
+            <span class="active"></span>
+            <p>Las reconozco pero no profundizo en ellas</p>
+          </label>
+          <label for="c4-q3">
+            <input id="c4-q3" type="radio" name="question4" value="2">
+            <span class="active"></span>
+            <p>Entiendo que aunque sean incómodas, son un regalo y detrás de ellas hay un aprendizaje, por lo que me permito vivirlas</p>
           </label>
         </div>
 
         
-        <div class="cont_quest">
+        <!-- <div class="cont_quest">
           <h5>Pregunta 4:</h5>
           <div>
             ¿Aquí empiezan todas las preguntas referentes a la categoría 1?
@@ -246,7 +271,7 @@
             <span class="active"></span>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
           </label>
-        </div>
+        </div> -->
 
 
       </div>
