@@ -7,6 +7,7 @@
     --text-white:#FFFFFF;
     --Light-Purple:#8C82D2;
     --Dark-Purple:#23167D;
+    --Yellow-Mustard:#F7A719;
 
     --font-title:"SF Pro Rounded", sans-serif;
     --font-content:"Montserrat", sans-serif;
@@ -172,7 +173,7 @@ main{
         box-shadow: 0 0px 24px -17px #4551bcc0;
         .active{
             position: absolute;
-            background-color: var(--Light-Purple);
+            background-color: var(--Yellow-Mustard);
             width: 300px;
             height: 300px;
             border-radius: 1000px;
@@ -181,7 +182,7 @@ main{
             z-index: 0;
         }
         &:hover{
-            border: 2px solid var(--Light-Purple);
+            border: 2px solid var(--Yellow-Mustard);
             box-shadow: 0 24px 24px -17px rgb(69 81 188 / 23%);
             &::before{
                 transform: scale(-0.6) translate(-210px, 170px);
@@ -192,6 +193,8 @@ main{
             input{
                 background: #FFFFFF;
                 z-index: 2;
+                border: 2px solid #FFF;
+                transition: 300ms ease all;
             }
         }
         p{
@@ -209,6 +212,7 @@ main{
             border-radius: 100px;
             border: 1px solid #D2D2D2;
             background: #FFF;
+            transition: 300ms ease all;
             &::before{
                 content: "";
                 font-family: "Font Awesome 5 Pro";
@@ -225,6 +229,7 @@ main{
                 color: #FFF;
                 background-color: #FFF;
                 z-index: 2;
+                border: 2px solid #FFF;
                 &::before{
                     content: '\f00c';
                 }
