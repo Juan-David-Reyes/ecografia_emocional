@@ -182,7 +182,7 @@ main {
   z-index: 0;
 }
 #questions label:hover {
-  border: 2px solid rgba(141, 130, 210, 0.6862745098);
+  border: 2px solid var(--Light-Purple);
   box-shadow: 0 24px 24px -17px rgba(69, 81, 188, 0.23);
 }
 #questions label:hover::before {

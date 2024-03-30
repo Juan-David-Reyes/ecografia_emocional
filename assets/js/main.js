@@ -23,5 +23,3 @@ function calculateScore() {
     // Mostrar resultado
    alert(response);
 }
-        
-calculateScore();

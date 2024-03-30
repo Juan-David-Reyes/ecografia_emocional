@@ -181,7 +181,7 @@ main{
             z-index: 0;
         }
         &:hover{
-            border: 2px solid #8d82d2af;
+            border: 2px solid var(--Light-Purple);
             box-shadow: 0 24px 24px -17px rgb(69 81 188 / 23%);
             &::before{
                 transform: scale(-0.6) translate(-210px, 170px);
