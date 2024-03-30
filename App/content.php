@@ -10,25 +10,24 @@
   </header>
   <main>
 
+    <span class="overlay"></span>
+
     <div class="mainTitle">
       <h1>Ecografía emocional</h1>
     </div>
 
     
-    <div class="container">
+    <form class="container">
 
       <div class="titCategoria">
         <h3>Emociones</h3>
-        
       </div>
       
-
-
-
+      
       <div id="questions">
 
         <div class="cont_quest">
-          <h5>Vocabulario emocional</h5>
+          <h4>Vocabulario emocional</h4>
           <div>
           ¿Cuando te preguntan cómo estás, cuál de las siguientes opciones representa de mejor manera tu vocabulario emocional?.
           </div>
@@ -36,7 +35,7 @@
 
         <div class="cont_questions" data-category="1">
           <label for="c1-q1">
-            <input id="c1-q1" type="radio" name="question1" value="0"> 
+            <input id="c1-q1" type="radio" name="question1" value="0" required> 
             <span class="active"></span>
             <p>Bien, mal, ahí vamos.</p>
           </label>
@@ -53,14 +52,14 @@
         </div>
 
        <div class="cont_quest">
-          <h5>Validación de la emoción</h5>
+          <h4>Validación de la emoción</h4>
           <div>
           Cuando me doy cuenta que estoy sintiendo emociones difíciles de manejar como: tristeza, miedo, frustración, enojo, mi actitud suele ser:
           </div>
         </div>
         <div class="cont_questions" data-category="1">
           <label for="c2-q1">
-            <input id="c2-q1" type="radio" name="question2" value="2">
+            <input id="c2-q1" type="radio" name="question2" value="2" required>
             <span class="active"></span>
             <p>Acepto sin juicio la emoción.</p>
           </label>
@@ -77,14 +76,14 @@
         </div>
 
         <div class="cont_quest">
-          <h5>Comunicar la emoción</h5>
+          <h4>Comunicar la emoción</h4>
           <div>
           Al momento de compartir lo que siento, cuál de las siguientes afirmaciones te representa mejor:
           </div>
         </div>
         <div class="cont_questions" data-category="1">
           <label for="c3-q1">
-            <input id="c3-q1" type="radio" name="question3" value="0">
+            <input id="c3-q1" type="radio" name="question3" value="0" required>
             <span class="active"></span>
             <p>Nunca comunico mis emociones</p>
           </label>
@@ -102,14 +101,14 @@
 
 
         <div class="cont_quest">
-          <h5>Gestión emocional</h5>
+          <h4>Gestión emocional</h4>
           <div>
           Ante emociones dificiles de manejar (rabia, tristeza, frustración, entre otras), con cuál de las siguientes frases te identificas más:
           </div>
         </div>
         <div class="cont_questions" data-category="1">
           <label for="c4-q1">
-            <input id="c4-q1" type="radio" name="question4" value="0">
+            <input id="c4-q1" type="radio" name="question4" value="0" required>
             <span class="active"></span>
             <p>Durante el tiempo que persiste la emoción siento que no tendría porqué vivirla</p>
           </label>
@@ -276,9 +275,9 @@
 
       </div>
     
-      <button onclick="calculateScore()">Calcular</button>
+      <button class="cta" onclick="calculateScore()">Ver Resultado</button>
   
-    </div>
+    </form>
 
   </main>
   <footer>
