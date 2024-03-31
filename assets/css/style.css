@@ -124,8 +124,12 @@ header picture img {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-top: 60px;
+  margin-top: 80px;
   text-align: center;
+}
+.titCategoria h3 {
+  font-weight: 900;
+  line-height: 1;
 }
 
 .container {
@@ -136,7 +140,8 @@ header picture img {
 
 .cont_quest {
   text-align: left;
-  padding: 60px 0 0;
+  padding: 24px 0 0;
+  box-sizing: border-box;
   gap: 8px;
   display: flex;
   flex-direction: column;
@@ -330,7 +335,7 @@ main {
 }
 .modalAnswer p {
   color: #282828;
-  text-align: center;
+  text-align: left;
 }
 
 .ctaRedirect {

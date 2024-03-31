@@ -34,15 +34,66 @@ document.querySelector('#cta').addEventListener('click', function(event){
         let modal = document.querySelector('.modalAnswer');
     
         if (score >= 0 && score <= 2) {
-            //response = 'Bajo';
+
             $(modal).fadeIn(300);
-            console.log("Bajo");
+
+            function includePHPFile(filePath) {
+                fetch(filePath)
+                .then(response => response.text())
+                .then(data => {
+                    // Insertar el contenido del archivo PHP en el documento HTML
+                    document.getElementById('includes1').innerHTML = data;
+                })
+                .catch(error => {
+                    console.error('Error al cargar el archivo PHP:', error);
+                });
+            }
+            
+            // Llamar a la función para incluir el archivo PHP cuando sea necesario
+            includePHPFile('../../App/cat1.baja.php');
+
+
+            //console.log("Bajo");
+
+
         } else if (score >= 3 && score <= 4) {
             $(modal).fadeIn(300);
-            console.log("Medio");
+
+            function includePHPFile(filePath) {
+                fetch(filePath)
+                .then(response => response.text())
+                .then(data => {
+                    // Insertar el contenido del archivo PHP en el documento HTML
+                    document.getElementById('includes1').innerHTML = data;
+                })
+                .catch(error => {
+                    console.error('Error al cargar el archivo PHP:', error);
+                });
+            }
+            
+            // Llamar a la función para incluir el archivo PHP cuando sea necesario
+            includePHPFile('../../App/cat1.media.php');
+
+            //console.log("Medio");
         } else if (score >= 5 && score <= 8) {
             $(modal).fadeIn(300);
-            console.log("Alto");
+
+            function includePHPFile(filePath) {
+                fetch(filePath)
+                .then(response => response.text())
+                .then(data => {
+                    // Insertar el contenido del archivo PHP en el documento HTML
+                    document.getElementById('includes1').innerHTML = data;
+                })
+                .catch(error => {
+                    console.error('Error al cargar el archivo PHP:', error);
+                });
+            }
+            
+            // Llamar a la función para incluir el archivo PHP cuando sea necesario
+            includePHPFile('../../App/cat1.baja.php');
+
+            //console.log("Alto");
         }
     }
 
@@ -80,13 +131,61 @@ document.querySelector('#cta').addEventListener('click', function(event){
         if (score >= 0 && score <= 2) {
             //response = 'Bajo';
             $(modal).fadeIn(300);
-            console.log("Bajo");
+            
+            function includePHPFile(filePath) {
+                fetch(filePath)
+                .then(response => response.text())
+                .then(data => {
+                    // Insertar el contenido del archivo PHP en el documento HTML
+                    document.getElementById('includes2').innerHTML = data;
+                })
+                .catch(error => {
+                    console.error('Error al cargar el archivo PHP:', error);
+                });
+            }
+            
+            // Llamar a la función para incluir el archivo PHP cuando sea necesario
+            includePHPFile('../../App/cat2.baja.php');
+            
+            //console.log("Bajo");
         } else if (score >= 3 && score <= 4) {
             $(modal).fadeIn(300);
-            console.log("Medio");
+            
+            function includePHPFile(filePath) {
+                fetch(filePath)
+                .then(response => response.text())
+                .then(data => {
+                    // Insertar el contenido del archivo PHP en el documento HTML
+                    document.getElementById('includes2').innerHTML = data;
+                })
+                .catch(error => {
+                    console.error('Error al cargar el archivo PHP:', error);
+                });
+            }
+            
+            // Llamar a la función para incluir el archivo PHP cuando sea necesario
+            includePHPFile('../../App/cat2.media.php');
+            
+            //console.log("Medio");
         } else if (score >= 5 && score <= 8) {
             $(modal).fadeIn(300);
-            console.log("Alto");
+            
+            function includePHPFile(filePath) {
+                fetch(filePath)
+                .then(response => response.text())
+                .then(data => {
+                    // Insertar el contenido del archivo PHP en el documento HTML
+                    document.getElementById('includes2').innerHTML = data;
+                })
+                .catch(error => {
+                    console.error('Error al cargar el archivo PHP:', error);
+                });
+            }
+            
+            // Llamar a la función para incluir el archivo PHP cuando sea necesario
+            includePHPFile('../../App/cat2.alta.php');
+            
+            //console.log("Alto");
         }
     }
 
@@ -124,13 +223,61 @@ document.querySelector('#cta').addEventListener('click', function(event){
         if (score >= 0 && score <= 2) {
             //response = 'Bajo';
             $(modal).fadeIn(300);
-            console.log("Bajo");
+            
+            function includePHPFile(filePath) {
+                fetch(filePath)
+                .then(response => response.text())
+                .then(data => {
+                    // Insertar el contenido del archivo PHP en el documento HTML
+                    document.getElementById('includes3').innerHTML = data;
+                })
+                .catch(error => {
+                    console.error('Error al cargar el archivo PHP:', error);
+                });
+            }
+            
+            // Llamar a la función para incluir el archivo PHP cuando sea necesario
+            includePHPFile('../../App/cat3.baja.php');
+            
+            //console.log("Bajo");
         } else if (score >= 3 && score <= 4) {
             $(modal).fadeIn(300);
-            console.log("Medio");
+            
+            function includePHPFile(filePath) {
+                fetch(filePath)
+                .then(response => response.text())
+                .then(data => {
+                    // Insertar el contenido del archivo PHP en el documento HTML
+                    document.getElementById('includes3').innerHTML = data;
+                })
+                .catch(error => {
+                    console.error('Error al cargar el archivo PHP:', error);
+                });
+            }
+            
+            // Llamar a la función para incluir el archivo PHP cuando sea necesario
+            includePHPFile('../../App/cat3.media.php');
+            
+            //console.log("Medio");
         } else if (score >= 5 && score <= 8) {
             $(modal).fadeIn(300);
-            console.log("Alto");
+            
+            function includePHPFile(filePath) {
+                fetch(filePath)
+                .then(response => response.text())
+                .then(data => {
+                    // Insertar el contenido del archivo PHP en el documento HTML
+                    document.getElementById('includes3').innerHTML = data;
+                })
+                .catch(error => {
+                    console.error('Error al cargar el archivo PHP:', error);
+                });
+            }
+            
+            // Llamar a la función para incluir el archivo PHP cuando sea necesario
+            includePHPFile('../../App/cat3.alta.php');
+            
+            //console.log("Alto");
         }
     }
 

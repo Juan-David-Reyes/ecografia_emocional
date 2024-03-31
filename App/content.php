@@ -14,8 +14,11 @@
     <div class="modalAnswer">
       <span class="overlay"></span>
       <div class="infoModal">
-        <h3>Respuesta prueba baja</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia inventore nihil voluptate! Consequuntur voluptatem ad illo quidem nisi. Eligendi commodi vitae debitis voluptate quam minima minus. Ratione deleniti aliquid culpa.</p>
+        <h3>Respuestas</h3>
+        <div id="includes1"></div>
+        <div id="includes2"></div>
+        <div id="includes3"></div>
+        <div id="includes4"></div>
         <a href="#" class="ctaRedirect">Volver</a>
       </div>
     </div>
@@ -40,7 +43,7 @@
       <!-- ************ -->
 
       <div class="cont_quest">
-        <h4>Vocabulario emocional</h4>
+        <h4>1. Vocabulario emocional</h4>
         <div>
         ¿Cuando te preguntan cómo estás, cuál de las siguientes opciones representa de mejor manera tu vocabulario emocional?.
         </div>
@@ -65,7 +68,7 @@
       </div>
 
       <div class="cont_quest">
-        <h4>Validación de la emoción</h4>
+        <h4>2. Validación de la emoción</h4>
         <div>
         Cuando me doy cuenta que estoy sintiendo emociones difíciles de manejar como: tristeza, miedo, frustración, enojo, mi actitud suele ser:
         </div>
@@ -89,7 +92,7 @@
       </div>
 
       <div class="cont_quest">
-        <h4>Comunicar la emoción</h4>
+        <h4>3.Comunicar la emoción</h4>
         <div>
         Al momento de compartir lo que siento, cuál de las siguientes afirmaciones te representa mejor:
         </div>
@@ -114,7 +117,7 @@
 
 
         <div class="cont_quest">
-          <h4>Gestión emocional</h4>
+          <h4>4.Gestión emocional</h4>
           <div>
           Ante emociones dificiles de manejar (rabia, tristeza, frustración, entre otras), con cuál de las siguientes frases te identificas más:
           </div>
@@ -147,7 +150,7 @@
 
         
         <div class="cont_quest">
-          <h4>Respiración y la relajación</h4>
+          <h4>1. Respiración y la relajación</h4>
           <div>
           En cuanto a la práctica de ejercicios de respiración y/o relajación, como técnicas que aportan al bienestar físico y mental, con cual de las siguientes afirmaciones te identificas:
           </div>
@@ -172,7 +175,7 @@
 
 
         <div class="cont_quest">
-          <h4>Visualización y meditación</h4>
+          <h4>2. Visualización y meditación</h4>
           <div>
           En cuanto a la práctica de visualizaciones y/o meditación, como técnicas que aportan al bienestar físico y mental, con cual de las siguientes afirmaciones te identificas:
           </div>
@@ -197,7 +200,7 @@
 
 
         <div class="cont_quest">
-          <h4>Movimiento corporal y autoconsciencia corporal</h4>
+          <h4>3. Movimiento corporal y autoconsciencia corporal</h4>
           <div>
           En cuanto a la práctica de sesiones de movimiento corporal y autoconsciencia corporal como el yoga y la danza consciente:
           </div>
@@ -230,7 +233,7 @@
 
 
         <div class="cont_quest">
-          <h4>Planeación y Flexibilidad cognitiva</h4>
+          <h4>1. Planeación y Flexibilidad cognitiva</h4>
           <div>
           ¿Cómo reaccionas habitualmente a los cambios?
           </div>
@@ -254,7 +257,7 @@
         </div>
 
         <div class="cont_quest">
-          <h4>Aceptación</h4>
+          <h4>2. Aceptación</h4>
           <div>
           En cuanto a la noticia del embarazo y las circunstancias que lo rodean: momento de vida en el que llegó, la pareja, estar casados o no, etc.
           </div>
@@ -278,7 +281,7 @@
         </div>
 
         <div class="cont_quest">
-          <h4>Atención</h4>
+          <h4>3. Atención</h4>
           <div>
             Frente a estar en embarazo:
           </div>
