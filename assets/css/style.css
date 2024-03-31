@@ -20,6 +20,10 @@
   font-size: 18px;
 }
 
+html {
+  height: 100vh;
+}
+
 @font-face {
   font-family: "SF Pro Rounded";
   src: url("../fonts/SF-Pro-Rounded-Heavy.otf") format("otf");
@@ -40,6 +44,22 @@ body {
   flex-direction: column;
   justify-content: space-between;
   font-family: var(--font-content);
+}
+
+main {
+  background: var(--background-baige);
+  border-radius: 16px;
+  padding: 24px 24px 0;
+  box-sizing: border-box;
+  height: 100%;
+  overflow-y: scroll;
+}
+main::-webkit-scrollbar {
+  width: 6px;
+}
+main::-webkit-scrollbar-thumb {
+  background-color: var(--Yellow-Mustard);
+  border-radius: 50px;
 }
 
 h3, h4, h5 {
@@ -151,22 +171,6 @@ header picture img {
 }
 .cont_quest h4 {
   line-height: 1;
-}
-
-main {
-  background: var(--background-baige);
-  border-radius: 16px;
-  padding: 24px 24px 0;
-  box-sizing: border-box;
-  height: 90%;
-  overflow-y: scroll;
-}
-main::-webkit-scrollbar {
-  width: 6px;
-}
-main::-webkit-scrollbar-thumb {
-  background-color: var(--Yellow-Mustard);
-  border-radius: 50px;
 }
 
 #questions {
@@ -473,9 +477,6 @@ footer a {
   }
 }
 @media screen and (max-width: 480px) {
-  body {
-    padding: 16px 16px 40px;
-  }
   #questions label {
     min-height: 110px;
   }
