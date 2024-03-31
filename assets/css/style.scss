@@ -125,7 +125,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 8px;
-    margin-bottom: 40px;
+    margin-top: 60px;
     text-align: center;
 }
 
@@ -265,7 +265,7 @@ main{
     }
 }
 
-.cta{
+#cta{
     appearance: none;
     background: url('/assets/images/cta.svg')no-repeat bottom;
     background-size: contain;
@@ -292,16 +292,62 @@ main{
     }
 }
 
-.overlay{
-    width: 100%;
-    height: 100%;
-    background-color: #000000c5;
-    background-blend-mode: multiply;
+
+.modalAnswer{
     position: fixed;
     z-index: 5;
-    inset: 0;
     display: none;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    margin: auto;
+    .overlay{
+        width: 100%;
+        height: 100%;
+        background-color: #000000c5;
+        background-blend-mode: multiply;
+        position: absolute;
+        z-index: 1;
+        inset: 0;
+    }
+    .infoModal{
+        background-color: #FFFFFF;
+        border-radius: 24px;
+        padding: 24px;
+        box-sizing: border-box;
+        max-width: 800px;
+        position: fixed;
+        z-index: 6;
+        inset: 0;
+        height: 90%;
+        margin: auto;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h3{
+        color: #282828;
+        text-align: center;
+    }
+    p{
+        color: #282828;
+        text-align: center;
+    }
 }
+
+.ctaRedirect{
+    background-color: var(--Yellow-Mustard);
+    color: #282828;
+    padding: 8px 16px;
+    border-radius: 100px;
+    height: 40px;
+    min-width: 250px;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+}
+
 
 footer{
     display: flex;
