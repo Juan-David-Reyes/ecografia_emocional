@@ -157,7 +157,7 @@
         </div>
         <div class="cont_questions cat2" data-category="2">
           <label for="c5-q1">
-            <input id="c5-q1" type="radio" name="question5" value="0">
+            <input id="c5-q1" type="radio" name="question5" value="0" required>
             <span class="active"></span>
             <p>No conozco esas técnicas</p>
           </label>
@@ -182,7 +182,7 @@
         </div>
         <div class="cont_questions cat2" data-category="2">
           <label for="c6-q1">
-            <input id="c6-q1" type="radio" name="question6" value="0">
+            <input id="c6-q1" type="radio" name="question6" value="0" required>
             <span class="active"></span>
             <p>No conozco esas técnicas</p>
           </label>
@@ -207,7 +207,7 @@
         </div>
         <div class="cont_questions cat2" data-category="2">
           <label for="c7-q1">
-            <input id="c7-q1" type="radio" name="question7" value="0">
+            <input id="c7-q1" type="radio" name="question7" value="0" required>
             <span class="active"></span>
             <p>No conozco esas técnicas</p>
           </label>
@@ -240,7 +240,7 @@
         </div>
         <div class="cont_questions cat3" data-category="3">
           <label for="c8-q1">
-            <input id="c8-q1" type="radio" name="question8" value="0">
+            <input id="c8-q1" type="radio" name="question8" value="0" required>
             <span class="active"></span>
             <p>Me molesta mucho que las cosas se salgan de mis planes</p>
           </label>
@@ -264,7 +264,7 @@
         </div>
         <div class="cont_questions cat3" data-category="3">
           <label for="c9-q1">
-            <input id="c9-q1" type="radio" name="question9" value="2">
+            <input id="c9-q1" type="radio" name="question9" value="2" required>
             <span class="active"></span>
             <p>El momento y circunstancias en que llegó la noticia del embarazo no generan dificultad para mi</p>
           </label>
@@ -288,7 +288,7 @@
         </div>
         <div class="cont_questions cat3" data-category="3">
           <label for="c10-q1">
-            <input id="c10-q1" type="radio" name="question10" value="2">
+            <input id="c10-q1" type="radio" name="question10" value="2" required>
             <span class="active"></span>
             <p>Lo tienes presente todo el día, física y emocionalmente.</p>
           </label>
@@ -301,6 +301,42 @@
             <input id="c10-q3" type="radio" name="question10" value="0">
             <span class="active"></span>
             <p>Pasa desapercibido cuando estoy enfocado/a en mis actividades regulares.</p>
+          </label>
+        </div>
+
+
+
+        <!-- ************ -->
+              
+        <div class="titCategoria">
+          <h3>Apoyo</h3>
+        </div>
+        
+        <!-- ************ -->
+
+
+
+        <div class="cont_quest">
+          <h4>1. Actitud personal frente a recibir apoyo</h4>
+          <div>
+          ¿Pensando en tu actitud frente a recibir apoyo, con cuál de las siguientes afirmaciones te identificas más?
+          </div>
+        </div>
+        <div class="cont_questions cat4" data-category="4">
+          <label for="c11-q1">
+            <input id="c11-q1" type="radio" name="question11" value="2" required>
+            <span class="active"></span>
+            <p>Me es fácil reconocer que necesito apoyo y pedirlo</p>
+          </label>
+          <label for="c11-q2">
+            <input id="c11-q2" type="radio" name="question11" value="1">
+            <span class="active"></span>
+            <p>Se me dificulta pero logro pedir apoyo</p>
+          </label>
+          <label for="c11-q3">
+            <input id="c11-q3" type="radio" name="question11" value="0">
+            <span class="active"></span>
+            <p>Evito pedir apoyo hasta que sea la última opción</p>
           </label>
         </div>
 
