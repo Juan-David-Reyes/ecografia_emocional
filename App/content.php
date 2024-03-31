@@ -15,10 +15,12 @@
       <span class="overlay"></span>
       <div class="infoModal">
         <h3>Respuestas</h3>
-        <div id="includes1"></div>
-        <div id="includes2"></div>
-        <div id="includes3"></div>
-        <div id="includes4"></div>
+        <div class="scrollModal">
+          <div id="includes1"></div>
+          <div id="includes2"></div>
+          <div id="includes3"></div>
+          <div id="includes4"></div>
+        </div>
         <a href="#" class="ctaRedirect">Volver</a>
       </div>
     </div>
@@ -314,8 +316,6 @@
         
         <!-- ************ -->
 
-
-
         <div class="cont_quest">
           <h4>1. Actitud personal frente a recibir apoyo</h4>
           <div>
@@ -337,6 +337,54 @@
             <input id="c11-q3" type="radio" name="question11" value="0">
             <span class="active"></span>
             <p>Evito pedir apoyo hasta que sea la última opción</p>
+          </label>
+        </div>
+
+        <div class="cont_quest">
+          <h4>2. Redes de apoyo</h4>
+          <div>
+          ¿En cuanto a las redes de apoyo en este momento que estás en embarazo, con cuál de estas afirmaciones te identificas más?
+          </div>
+        </div>
+        <div class="cont_questions cat4" data-category="4">
+          <label for="c12-q1">
+            <input id="c12-q1" type="radio" name="question12" value="2" required>
+            <span class="active"></span>
+            <p>Cuento con amigos y familia cercanos que me acompañen de cerca para vivir este embarazo</p>
+          </label>
+          <label for="c12-q2">
+            <input id="c12-q2" type="radio" name="question12" value="1">
+            <span class="active"></span>
+            <p>Aunque cuento con amigos y familia cercanos no están tan disponibles (luga residencia u ocupación)</p>
+          </label>
+          <label for="c12-q3">
+            <input id="c12-q3" type="radio" name="question12" value="0">
+            <span class="active"></span>
+            <p>Definitivamente me encuentro en este momento muy sola/solo</p>
+          </label>
+        </div>
+
+        <div class="cont_quest">
+          <h4>3. Empoderamiento y Autonomía</h4>
+          <div>
+          ¿Con cuál de estas afirmaciones te identificas más?
+          </div>
+        </div>
+        <div class="cont_questions cat4" data-category="4">
+          <label for="c13-q1">
+            <input id="c13-q1" type="radio" name="question13" value="2" required>
+            <span class="active"></span>
+            <p>Confío en mi criterio y rara vez colsulto la opinión de otros para tomar decisiones</p>
+          </label>
+          <label for="c13-q2">
+            <input id="c13-q2" type="radio" name="question13" value="1">
+            <span class="active"></span>
+            <p>Consulto la opinión de otros e incorporo lo que cosidere valioso</p>
+          </label>
+          <label for="c13-q3">
+            <input id="c13-q3" type="radio" name="question13" value="0">
+            <span class="active"></span>
+            <p>Tiendo a considerar siempre la opinión externa/ Le doy mucha importancia a la opinión de los demás</p>
           </label>
         </div>
 

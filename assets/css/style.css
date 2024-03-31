@@ -328,6 +328,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-height: 90vh;
 }
 .modalAnswer h3 {
   color: #282828;
@@ -348,6 +349,19 @@ main {
   text-decoration: none;
   font-weight: 600;
   text-align: center;
+}
+
+.scrollModal {
+  overflow-y: scroll;
+  padding: 0 16px 0 0;
+}
+.scrollModal::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+}
+.scrollModal::-webkit-scrollbar-thumb {
+  background-color: var(--Yellow-Mustard);
+  border-radius: 50px;
 }
 
 footer {
