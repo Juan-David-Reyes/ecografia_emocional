@@ -477,6 +477,9 @@ footer a {
   }
 }
 @media screen and (max-width: 480px) {
+  body {
+    height: 96vh;
+  }
   #questions label {
     min-height: 110px;
   }
