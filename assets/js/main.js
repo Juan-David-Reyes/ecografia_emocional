@@ -77,6 +77,6 @@ document.querySelector('.ctaRedirect').addEventListener('click', function(event)
     if($(modal).is(':visible')){
         $(questions).prop('checked', false);
         $(modal).fadeOut(300);
-        window.location.href = 'index';
+        window.location.href = 'index.php';
     }
 });
