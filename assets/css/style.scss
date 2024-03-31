@@ -51,15 +51,18 @@ h3, h4, h5{
     font-family: var(--font-title);
     font-weight: 700;
     margin: 0;
+    line-height:1;
 }
 h1, h2{
     font-family: var(--font-title);
     font-weight: 900;
     margin: 0;
+    line-height:1;
 }
 
 h1{
     font-size: 54px;
+    text-align: center;
 }
 h2{
     font-size: 40px;
@@ -118,7 +121,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 40px;
+    padding: 40px 0;
+    box-sizing: border-box;
 }
 
 .titCategoria{
@@ -158,6 +162,13 @@ main{
     box-sizing: border-box;
     height: 90%;
     overflow-y: scroll;
+    &::-webkit-scrollbar{
+        width: 6px;
+    }
+    &::-webkit-scrollbar-thumb{
+        background-color: var(--Yellow-Mustard);
+        border-radius: 50px;
+    }
 }
 
 #questions{
@@ -274,7 +285,7 @@ main{
     appearance: none;
     background: url('/assets/images/cta.svg')no-repeat bottom;
     background-size: contain;
-    width: 40%;
+    width: 100%;
     height: 64px;
     border: 0;
     outline: 0;
@@ -380,12 +391,111 @@ footer{
     p{
         color: var(--text-white);
         margin: 0;
-        font-size: 15px;
+        font-size: 13px;
     }
     a{
-        font-size: 15px;
+        font-size: 13px;
         color: var(--text-white);
         text-decoration: underline;
         font-weight: 600;
+    }
+}
+
+
+@media screen and (max-width:1050px){
+    #questions label .active{
+        width: 110%;
+    }
+}
+@media screen and (max-width:768px){
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    h2{
+        font-size: 32px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 16px;
+    }
+    main{
+        padding: 16px 16px 0;
+    }
+    header nav a{
+        font-size: 18px;
+        gap: 8px;
+    }
+    header{
+        justify-content: flex-end;
+        padding: 0 0 16px;
+    }
+    footer{
+        height: auto;
+        p{
+        font-size: 11px;
+            a{
+               
+                font-size: 11px;
+
+            }
+        }
+    }
+    .titCategoria{
+        margin-top: 40px;
+    }
+    #questions label input{
+        right: initial;
+        left: 16px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    #questions .cont_questions{
+        flex-direction: column  ;
+    }
+    #questions label .active{
+        transform: scale(1) translate(-100%, 0%);
+        width: 110%;
+        left: 0;
+        height: 150%;
+        width: 110%;
+        transition: 300ms ease-in-out;
+    }
+    #questions label input:checked+.active{
+        transform: scale(1) translate(-4%, 0%);
+    }
+    #questions label{
+        min-height: 140px;
+        padding-left: 54px;
+        align-items: flex-start;
+    }
+    #questions label p{
+        text-align: left;
+    }
+    
+}
+@media screen and (max-width:480px){
+    #questions label{
+        min-height: 110px;
+    }
+    #questions{
+        margin-bottom: 40px;
+    }
+
+    .cont_quest > div{
+        font-size: 16px;
+    }
+    #questions .cont_questions{
+        gap: 16px;
+    }
+    #cta{
+        font-size: 16px;
+        padding-top: 10px;
     }
 }
