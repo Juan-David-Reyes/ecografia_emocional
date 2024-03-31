@@ -30,7 +30,11 @@ document.querySelector('#cta').addEventListener('click', function(event){
 
         // Determinar respuesta según el puntaje
         let modal = document.querySelector('.modalAnswer');
+        let body = document.querySelector('body');
+
         $(modal).fadeIn(300);
+        $(body).css('overflow', 'hidden');
+        
 
         let includeFile;
         if (score >= 0 && score <= 2) {
@@ -76,7 +80,7 @@ document.querySelector('.ctaRedirect').addEventListener('click', function(event)
 
     if($(modal).is(':visible')){
         $(questions).prop('checked', false);
-        $(modal).fadeOut(300);
+        // $(modal).fadeOut(300);
         window.location.href = 'index.php';
     }
 });
