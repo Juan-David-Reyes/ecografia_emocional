@@ -22,10 +22,6 @@
     font-size: 18px;
 }
 
-html{
-    height: 100vh;
-}
-
 @font-face {
     font-family: "SF Pro Rounded";
     src: url("../fonts/SF-Pro-Rounded-Heavy.otf")format("otf");
@@ -426,18 +422,56 @@ footer{
     h5{
         font-size: 16px;
     }
+    body{
+        height: 100%;
+        padding-top: 64px;
+    }
     main{
         padding: 16px 16px 0;
     }
     header nav a{
         font-size: 18px;
         gap: 8px;
-        left: 0;
+        left: 24px;
     }
     header{
         justify-content: flex-end;
-        padding: 0 0 16px;
+        height:64px;
+        position: fixed;
+        z-index: 10;
+        background: var(--Light-Purple);
+        left: 0;
+        right: 0;
+        top: 0;
+        padding: 8px 24px;
+        box-sizing: border-box;
+        &::before{
+            content: '';
+            width: 100%;
+            height: 16px;
+            background-color: var(--Light-Purple);
+            border-radius: 16px 16px 0 0;
+            position: absolute;
+            bottom: -16px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            z-index: 1;
+        }&::after{
+            content: '';
+            width: calc(100% - 32px);
+            height: 16px;
+            background-color: var(--background-baige);
+            border-radius: 16px 16px 0 0;
+            position: absolute;
+            bottom: -16px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            z-index: 2;
+        }
     }
+    
     footer{
         height: auto;
         p{
@@ -485,9 +519,6 @@ footer{
     
 }
 @media screen and (max-width:480px){
-    body{
-        height: 96vh;
-    }
     #questions label{
         min-height: 110px;
     }
